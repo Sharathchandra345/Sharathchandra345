@@ -8,16 +8,8 @@
   src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif"
 />
 
-<p align="left">
-  <a href="https://twitter.com/csharath3" target="blank"
-    ><img
-      src="https://img.shields.io/twitter/follow/csharath3?logo=twitter&style=for-the-badge"
-      alt="csharath3"
-  /></a>
-</p>
-
 - 🌱 I’m currently learning **Backend , Blockchain** - 📫 Contact
-**csharathchandra3@gmail.com** **cchandra_be22@thapar.edu**
+**csharathchandra3@gmail.com** | **cchandra_be22@thapar.edu**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
