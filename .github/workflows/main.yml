@@ -22,7 +22,11 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
 
+      - name: Debug - List files in dist directory
+        run: ls -la dist
+
       - name: push github-contribution-grid-snake.svg to the output branch
+        if: success() && steps.generate.outputs.dist != ''
         uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
           target_branch: output
