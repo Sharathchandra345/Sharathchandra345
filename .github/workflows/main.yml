@@ -21,12 +21,15 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          output_path: dist/github-contribution-grid-snake.svg
+
+      - name: Ensure dist directory exists
+        run: mkdir -p dist
 
       - name: Debug - List files in dist directory
         run: ls -la dist
 
       - name: push github-contribution-grid-snake.svg to the output branch
-        if: success() && steps.generate.outputs.dist != ''
         uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
           target_branch: output
